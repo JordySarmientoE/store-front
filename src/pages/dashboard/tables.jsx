@@ -3,13 +3,8 @@ import {
   CardHeader,
   CardBody,
   Typography,
-  Avatar,
-  Chip,
-  Tooltip,
   Progress,
 } from "@material-tailwind/react";
-import { EllipsisVerticalIcon } from "@heroicons/react/24/outline";
-import { authorsTableData, projectsTableData } from "@/data";
 
 export function Tables() {
   return (
@@ -17,7 +12,7 @@ export function Tables() {
       <Card>
         <CardHeader variant="gradient" color="gray" className="mb-8 p-6">
           <Typography variant="h6" color="white">
-            Authors Table
+            Listadodasdasdasda
           </Typography>
         </CardHeader>
         <CardBody className="overflow-x-scroll px-0 pt-0 pb-2">
@@ -40,7 +35,7 @@ export function Tables() {
               </tr>
             </thead>
             <tbody>
-              {authorsTableData.map(
+              {/* {authorsTableData.map(
                 ({ img, name, email, job, online, date }, key) => {
                   const className = `py-3 px-5 ${
                     key === authorsTableData.length - 1
@@ -100,7 +95,7 @@ export function Tables() {
                     </tr>
                   );
                 }
-              )}
+              )} */}
             </tbody>
           </table>
         </CardBody>
@@ -133,7 +128,7 @@ export function Tables() {
               </tr>
             </thead>
             <tbody>
-              {projectsTableData.map(
+              {/* {projectsTableData.map(
                 ({ img, name, members, budget, completion }, key) => {
                   const className = `py-3 px-5 ${
                     key === projectsTableData.length - 1
@@ -209,7 +204,7 @@ export function Tables() {
                     </tr>
                   );
                 }
-              )}
+              )} */}
             </tbody>
           </table>
         </CardBody>

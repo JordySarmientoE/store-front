@@ -22,7 +22,6 @@ import { StatisticsChart } from "@/widgets/charts";
 import {
   statisticsCardsData,
   statisticsChartsData,
-  projectsTableData,
   ordersOverviewData,
 } from "@/data";
 import { CheckCircleIcon, ClockIcon } from "@heroicons/react/24/solid";
@@ -124,7 +123,7 @@ export function Home() {
                 </tr>
               </thead>
               <tbody>
-                {projectsTableData.map(
+                {/* {projectsTableData.map(
                   ({ img, name, members, budget, completion }, key) => {
                     const className = `py-3 px-5 ${
                       key === projectsTableData.length - 1
@@ -188,7 +187,7 @@ export function Home() {
                       </tr>
                     );
                   }
-                )}
+                )} */}
               </tbody>
             </table>
           </CardBody>
